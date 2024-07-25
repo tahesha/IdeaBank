@@ -13,12 +13,12 @@ const App = () => {
         <Router>
             <div>
                 <Header />
-                <Switch>
+                <Routes>
                     <Route exact path="/" component={Home} />
                     <Route path="/add" component={AddIdea} />
                     <Route path="/categories" component={Categories} />
                     <Route path="/random" component={Random} />
-                </Switch>
+                </Routes>
                 <Footer />
             </div>
         </Router>

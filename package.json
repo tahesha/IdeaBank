@@ -1,0 +1,33 @@
+{
+  "name": "ideabank",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Idea Bank is a full-stack web application that helps you organize and manage your ideas effectively. Users can create, read, update, and delete ideas, categorize them, and get random idea suggestions when they need inspiration.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
